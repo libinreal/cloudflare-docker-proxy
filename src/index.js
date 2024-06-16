@@ -8,9 +8,10 @@ const dockerHub = "https://registry-1.docker.io";
 const routes = {
   "dpw0616a.eastern-dawn.com": "https://registry-1.docker.io",
   "dpw0616b.eastern-dawn.com": "https://quay.io",
-  "dpw0616c.eastern-dawn.com": "https://k8s.gcr.io",
+  "dpw0616c.eastern-dawn.com": "https://gcr.io",
   "dpw0616d.eastern-dawn.com": "https://k8s.gcr.io",
-  "dpw0616e.eastern-dawn.com": "https://ghcr.io",
+  "dpw0616e.eastern-dawn.com": "https://registry.k8s.io",
+  "dpw0616f.eastern-dawn.com": "https://ghcr.io",
 };
 
 function routeByHosts(host) {

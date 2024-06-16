@@ -26,7 +26,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "dpw0616a.eastern-dawn.com", custom_domain = true }
+route = { pattern = "dpw0616f.eastern-dawn.com", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"

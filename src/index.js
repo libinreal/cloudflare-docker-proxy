@@ -6,11 +6,13 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
+  // production
   "dpw0616a.eastern-dawn.com": "https://registry-1.docker.io",
   "dpw0616b.eastern-dawn.com": "https://quay.io",
   "dpw0616c.eastern-dawn.com": "https://gcr.io",
   "dpw0616d.eastern-dawn.com": "https://k8s.gcr.io",
   "dpw0616e.eastern-dawn.com": "https://registry.k8s.io",
+  // staging
   "dpw0616f.eastern-dawn.com": "https://ghcr.io",
 };
 

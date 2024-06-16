@@ -6,11 +6,11 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "dpw.eastern-dawn.com/20240616a": "https://registry-1.docker.io",
-  "dpw.eastern-dawn.com/20240616b": "https://quay.io",
-  "dpw.eastern-dawn.com/20240616c": "https://k8s.gcr.io",
-  "dpw.eastern-dawn.com/20240616d": "https://k8s.gcr.io",
-  "dpw.eastern-dawn.com/20240616e": "https://ghcr.io",
+  "dpw0616a.eastern-dawn.com": "https://registry-1.docker.io",
+  "dpw0616b.eastern-dawn.com": "https://quay.io",
+  "dpw0616c.eastern-dawn.com": "https://k8s.gcr.io",
+  "dpw0616d.eastern-dawn.com": "https://k8s.gcr.io",
+  "dpw0616e.eastern-dawn.com": "https://ghcr.io",
 };
 
 function routeByHosts(host) {
